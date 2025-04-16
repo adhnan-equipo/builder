@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { PlusCircle, Copy, Trash2, Edit, Eye, AlertTriangle } from "lucide-react";
 import { Button } from "../ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../../components/ui/card";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter, DialogDescription } from "../../components/ui/dialog";
 import { Input } from "../ui/input";
 import { toast } from "../ui/use-toast";
-import { cn } from "../../lib/utils";
 import { Pagination } from "../ui/pagination";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle } from "../ui/alert-dialog";
 
